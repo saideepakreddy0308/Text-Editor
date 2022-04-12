@@ -21,7 +21,7 @@ const Navbar = (props) => {
               </li>
             </ul>
             <div className={`form-check form-switch text-${props.mode === 'light' ? 'dark' : 'light'}`}>
-              <button type="button" onClick={props.toggleMode} className={`btn btn-dark btn-sm bg-${props.mode === 'light' ? 'secondary' : 'success'} text-${props.mode === 'light' ? 'light' : 'dark'}`}>ChangeMode
+              <button type="button" onClick={props.toggleMode} className={`btn btn-dark btn-sm bg-${props.mode === 'light' ? 'secondary' : 'success'} text-${props.mode === 'light' ? 'dark' : 'light'}`}>ChangeMode
               </button>
             </div>
           </div>

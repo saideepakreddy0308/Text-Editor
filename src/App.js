@@ -4,7 +4,7 @@ import TextForm from './components/TextForm';
 import React,{useState} from 'react';
 import About from './components/About';
 import Alert from './components/Alert';
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Footer from './components/Footer';
 
 function App() {
